@@ -1,0 +1,36 @@
+.Listo{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card{
+width:28vw;
+height: 25vh;
+}
+.row{
+  height: 88vh;
+  overflow-y: scroll;
+  scroll-behavior:smooth ;
+  margin-top: 10px;
+}
+
+
+.cardi {
+
+margin: 0.3rem;
+cursor: pointer;
+box-shadow: 2px 4px 8px 4px rgba(0,0,0,0.2);
+
+width: 28vw;
+
+transition: transform 0.5s;
+&:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: translateY(-15px);
+}
+>div{
+  margin: 0.4rem;
+}
+
+}
+
