@@ -49,8 +49,8 @@ const Map = ({setCoordinates,setBounds,coords,places,setChildClicked, weatherDat
 
 
       { weatherData?.data?.map((data, i) => (
-          <div key={i} lat={weatherData.lat} lng={weatherData.lon}>
-            <img src={`https://openweathermap.org/img/wn/${data.Weather.icon}@2x.png`} height="70px" />
+          <div key={i} lat={weatherData?.lat} lng={weatherData?.lon}>
+            <img src={`https://openweathermap.org/img/wn/${data?.Weather?.icon}@2x.png`} height="70px" />
           </div>
         ))}
 
